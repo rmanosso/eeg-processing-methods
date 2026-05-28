@@ -55,7 +55,7 @@ This project aims to organize these methodological pathways as a navigable knowl
 ## Interactive Website
 
 🌐 **Live website:**  
-https://github.com/rmanosso/eeg-processing-methods
+https://rmanosso.github.io/eeg-processing-methods
 
 The Quartz-generated website includes:
 
@@ -156,7 +156,7 @@ MOC/Pipeline EEG.md
 Access the public website directly:
 
 ```text
-https://github.com/rmanosso/eeg-processing-methods
+https://rmanosso.github.io/eeg-processing-methods
 ```
 
 To run Quartz locally:
@@ -231,7 +231,7 @@ If this resource contributes to your work, please consider citing:
 @misc{manosso2025eegvault,
   author       = {Rodrigo Manosso},
   title        = {EEG Processing Methods — Knowledge Vault},
-  year         = {2025},
+  year         = {2026},
   publisher    = {GitHub},
   url          = {https://github.com/rmanosso/eeg-processing-methods}
 }
