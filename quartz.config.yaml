@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: rmanosso.github.io
+  baseUrl: rmanosso.github.io/eeg-processing-methods
   ignorePatterns:
     - private
     - templates
