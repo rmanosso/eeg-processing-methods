@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "rmanosso.github.io/eeg-processing-methods",
+    baseUrl: "eeg-processing-methods",
     ignorePatterns: [
       "private",
       ".obsidian",
