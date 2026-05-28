@@ -21,12 +21,12 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout vault repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0   # necessário para datas de modificação corretas
 
       - name: Checkout Quartz
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: jackyzha0/quartz
           ref: v4
@@ -34,7 +34,7 @@ jobs:
           fetch-depth: 1
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: "npm"
@@ -70,7 +70,7 @@ jobs:
         run: npx quartz build
 
       - name: Upload artifact for Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: quartz/public
 
@@ -83,4 +83,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
