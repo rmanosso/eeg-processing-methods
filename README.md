@@ -55,7 +55,7 @@ This project aims to organize these methodological pathways as a navigable knowl
 ## Interactive Website
 
 🌐 **Live website:**  
-https://rmanosso.github.io/eeg-processing-methods
+https://rmanosso.github.io/eeg-processing-methods/moc/pipeline-eeg
 
 The Quartz-generated website includes:
 
